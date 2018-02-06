@@ -9,29 +9,25 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.chq.demo.spring-cloud</groupId>
-    <artifactId>service-ribbon</artifactId>
+    <artifactId>service-zuul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>service-ribbon</name>
+    <name>service-zuul</name>
     <url>http://maven.apache.org</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-         <dependency>
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
