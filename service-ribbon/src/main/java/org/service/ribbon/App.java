@@ -19,7 +19,6 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@EnableDiscoveryClient
 @EnableHystrix
 public class App 
 {
