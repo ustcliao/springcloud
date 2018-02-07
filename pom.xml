@@ -17,7 +17,9 @@
         <module>config-client</module>
         <module>ha-config-server</module>
         <module>ha-config-client</module>
-  </modules>
+        <module>server-zipkin</module>
+        <module>service-hi</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -30,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Dalston.SR2</spring-cloud.version>
+        <spring-cloud.version>Dalston.SR5</spring-cloud.version>
     </properties>
 
     <dependencyManagement>
