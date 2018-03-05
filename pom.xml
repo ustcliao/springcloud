@@ -19,7 +19,7 @@
         <module>ha-config-client</module>
         <module>server-zipkin</module>
         <module>service-hi</module>
-        <module>docker-eureka-serverdocker-eureka-server</module>
+        <module>docker-eureka-server</module>
     </modules>
 
     <parent>
