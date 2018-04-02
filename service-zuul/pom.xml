@@ -10,7 +10,6 @@
     </parent>
     <groupId>com.chq.demo.spring-cloud</groupId>
     <artifactId>service-zuul</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>service-zuul</name>
     <url>http://maven.apache.org</url>
     <properties>
